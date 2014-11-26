@@ -1,0 +1,5 @@
+
+CC += -DSPEC_CPU_LINUX
+
+
+
