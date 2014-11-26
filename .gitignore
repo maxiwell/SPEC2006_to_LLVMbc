@@ -1,3 +1,4 @@
 
-llvm-bin/*
+llvm-bin/*.bc
+llvm-bin/*.make
 
