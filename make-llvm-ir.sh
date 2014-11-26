@@ -12,7 +12,6 @@ AUXFILES="make-files"
 
 # Find all apps (file that start with number)
 ALL=$(find $SPEC/benchspec -maxdepth 2 | grep CPU2006/[0-9])
-ALL="$SPEC/benchspec/CPU2006/447.dealII" 
 for i in $ALL; do
     cd $LEVEL
     APP=$(basename $i)

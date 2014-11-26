@@ -7,6 +7,7 @@ CPPFLAGS += \
 
 CXXFLAGS += -stdlib=libstdc++
 
+CXXPORTABILITY= -include cstddef -include cstdlib -include cstring
 
-CXX      +=  $(CPPFLAGS) $(CXXFLAGS) 
+CXX      +=  $(CPPFLAGS) $(CXXFLAGS) $(CXXPORTABILITY)
 
